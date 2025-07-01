@@ -144,7 +144,7 @@ const FormPage = () => {
         clientAdresse: params.clientAdresse || prev.clientAdresse,
         prestations: prestations.length > 0 ? prestations : prev.prestations,
     }));
-    }, [window.location.search]);
+    }, [searchParams]);
 
 
 
